@@ -8,7 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>eurekaserver</module>
-	</modules>
+        <module>eureka-client</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>spring-cloud-demo</name>
@@ -41,11 +42,8 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
