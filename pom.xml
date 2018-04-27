@@ -9,6 +9,7 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>service-ribbon</module>
     </modules>
     <packaging>pom</packaging>
 
