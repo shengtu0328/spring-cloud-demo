@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrixDashboard
 public class ServiceRibbonApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
         SpringApplication.run(ServiceRibbonApplication.class, args);
     }
 
