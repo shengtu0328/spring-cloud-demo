@@ -1,0 +1,9 @@
+spring:
+    cloud:
+        config:
+            label: master
+            uri: http://localhost:8888
+            name: xrq-config
+            profile: dev
+server:
+  port: 8881
